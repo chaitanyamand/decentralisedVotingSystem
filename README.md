@@ -18,12 +18,15 @@ Ensure the following are installed on your system:
 
 ```bash
 git clone https://github.com/chaitanyamand/decentralisedVotingSystem.git
-cd decentralisedVotingSystem
+cd decentralisedVotingSystem/
 ```
 
 ### 2. Install Dependencies
 
 ```bash
+npm install
+
+cd client/
 npm install
 ```
 
@@ -36,6 +39,7 @@ ganache-cli
 ### 4. Compile and Deploy Smart Contracts
 
 ```bash
+cd truffle/
 truffle compile
 truffle migrate
 ```
@@ -43,6 +47,7 @@ truffle migrate
 ### 5. Start the React Frontend
 
 ```bash
+cd client/
 npm run start
 ```
 
