@@ -18,7 +18,7 @@ Ensure the following are installed on your system:
 
 ```bash
 git clone https://github.com/chaitanyamand/decentralisedVotingSystem.git
-cd decentralized-voting-system
+cd decentralisedVotingSystem
 ```
 
 ### 2. Install Dependencies
