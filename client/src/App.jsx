@@ -1,6 +1,6 @@
 import { EthProvider } from "./contexts/EthContext";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Demo from "./components/";
+import MainHandler from "./components/";
 
 import Owner from "./components/Owner";
 
@@ -10,7 +10,7 @@ function App() {
       <Router>
         <div>
           <Routes>
-            <Route exact path="/" element={<Demo />}></Route>
+            <Route exact path="/" element={<MainHandler />}></Route>
             <Route exact path="/Owner" element={<Owner />}></Route>
           </Routes>
         </div>

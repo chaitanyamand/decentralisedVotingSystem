@@ -3,7 +3,7 @@ import Main from "./Main";
 import NoticeNoArtifact from "./NoticeNoArtifact";
 import NoticeWrongNetwork from "./NoticeWrongNetwork";
 
-function Demo() {
+function MainHandler() {
   const { state } = useEth();
 
   const demo = (
@@ -14,17 +14,7 @@ function Demo() {
     </>
   );
 
-  return (
-    <div>
-      {!state.artifact ? (
-        <NoticeNoArtifact />
-      ) : !state.contract ? (
-        <NoticeWrongNetwork />
-      ) : (
-        demo
-      )}
-    </div>
-  );
+  return <div>{!state.artifact ? <NoticeNoArtifact /> : !state.contract ? <NoticeWrongNetwork /> : demo}</div>;
 }
 
-export default Demo;
+export default MainHandler;
