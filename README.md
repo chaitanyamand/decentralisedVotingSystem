@@ -17,7 +17,7 @@ Ensure the following are installed on your system:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/decentralized-voting-system.git
+git clone https://github.com/chaitanyamand/decentralisedVotingSystem.git
 cd decentralized-voting-system
 ```
 
