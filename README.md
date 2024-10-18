@@ -30,7 +30,7 @@ cd client/
 npm install
 ```
 
-### 5. Add Private Files
+### 3. Add Private Files
 
 ```bash
 cd truffle/
