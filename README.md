@@ -27,26 +27,38 @@ cd decentralized-voting-system
 npm install
 ```
 
-### 3. Start Ganache (Local Blockchain)
+### 5. Add Private Files
+
+```bash
+cd truffle/
+touch .etherscan
+echo <your-etherscan-api-key> >> .etherscan
+touch .infura
+echo <your-infura-api-key> >> .infura
+touch .secret
+echo <your-wallet-key-words> >> .secret
+```
+
+### 4. Start Ganache (Local Blockchain)
 
 ```bash
 ganache-cli
 ```
 
-### 4. Compile and Deploy Smart Contracts
+### 5. Compile and Deploy Smart Contracts
 
 ```bash
 truffle compile
 truffle migrate
 ```
 
-### 5. Start the React Frontend
+### 6. Start the React Frontend
 
 ```bash
 npm run start
 ```
 
-### 6. Connect MetaMask
+### 7. Connect MetaMask
 
 - Open MetaMask and connect it to your local blockchain (Ganache) network.
 - Import a Ganache account into MetaMask using a private key provided by Ganache.
